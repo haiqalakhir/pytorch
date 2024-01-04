@@ -26,7 +26,20 @@ print(ave)
 
 blu = np.full((3,2), 2)
 print(blu)
-print("")
+
 
 print(np.matmul(ave,blu))
 
+
+# find determinant
+c = np.identity(3)
+print(np.linalg.det(c))
+
+print("")
+#statistic
+
+
+stats = np.array([[1,2,3],[4,5,6]])
+
+print(np.min(stats))
+print(np.max(stats))
