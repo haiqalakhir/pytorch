@@ -7,3 +7,9 @@ print(a + 2)
 print(a - 2)
 print(a * 2)
 print(a / 2)
+print("")
+
+
+b = np.array([1,0,1,0])
+
+print(a + b)
