@@ -5,6 +5,8 @@ import numpy as np
 numpy_array = np.array([0.0, 1.0, 2.0, 3.0, 4.0])
 torch_tensor = torch.from_numpy(numpy_array)
 print(torch_tensor)
+back_to_numpy = torch_tensor.numpy()
+print(back_to_numpy)
 
 
 # #convert torch to list
