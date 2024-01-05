@@ -18,3 +18,16 @@ print(z)
 uu = torch.tensor([1,2])
 vv = torch.tensor([3,2])
 print(uu * vv)
+
+
+#dot product  # (x*x) + (y*y)
+xx = torch.tensor([1,2])
+yy = torch.tensor([1,2])
+dotproduct = torch.dot(xx, yy)
+print(dotproduct)
+
+
+#adding constant to a tensor
+cons = torch.tensor([1,2,3,-1])
+zzz = cons + 1  #every element inside tensor cons add 1
+print(zzz)
