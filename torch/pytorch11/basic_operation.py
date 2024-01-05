@@ -1,4 +1,4 @@
-import torch
+import torch  # 1D operation
 
 #addition vector
 u = torch.tensor([1.0,0.0])
